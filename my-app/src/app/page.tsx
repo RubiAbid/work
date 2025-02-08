@@ -10,6 +10,8 @@ import HeroSection from "@/components/HeroSection";
 import NavSecond from "@/components/NavBar1";
 import Footer from "@/components/Footer";
 import FooterSecond from "@/components/FooterSecond";
+import FastFoodMenu from "@/components/Card";
+
 
 export default function Home() {
   return (
@@ -19,11 +21,12 @@ export default function Home() {
       <NavSecond/>
       {/* <HeroSection/> */}
       {/* <Featured/> */}
-      <Featured2/>
-      <TopRecipes/>
-      <Testimonials/>
-      <LatestNews/>
-      <Footer/>
+      {/* <Featured2/> */}
+      <FastFoodMenu/>
+      {/* <TopRecipes/> */}
+      {/* <Testimonials/> */}
+      {/* <LatestNews/> */}
+      {/* <Footer/> */}
       {/* <FooterSecond/> */}
       
     </div>
